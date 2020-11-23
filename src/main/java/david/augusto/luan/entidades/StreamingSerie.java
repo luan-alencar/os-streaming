@@ -5,7 +5,10 @@ import java.util.List;
 
 import david.augusto.luan.exceptions.AutorInexistenteException;
 import david.augusto.luan.interfaces.ServicoStreaming;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter @Setter
 public abstract class StreamingSerie implements ServicoStreaming {
 
 	protected List<Serie> series;
@@ -32,7 +35,7 @@ public abstract class StreamingSerie implements ServicoStreaming {
 	}
 
 	@Override
-	public void removerSeriesDoAutor(String autor) throws AutorInexistenteException{
+	public void removerSeriesDoAutor(String autor) throws AutorInexistenteException {
 		List<Serie> seriesDoAutor = new ArrayList<Serie>();
 		for (Serie s : series) {
 			if (s.getAutor().equals(autor)) {
@@ -42,14 +45,5 @@ public abstract class StreamingSerie implements ServicoStreaming {
 		}
 		seriesDoAutor.removeAll(series);
 	}
-
-	public List<Serie> getSeries() {
-		return series;
-	}
-
-	public void setSeries(List<Serie> series) {
-		this.series = series;
-	}
-
 
 }
