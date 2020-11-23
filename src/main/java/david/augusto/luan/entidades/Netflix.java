@@ -2,10 +2,6 @@ package david.augusto.luan.entidades;
 
 import david.augusto.luan.exceptions.SerieInexistenteException;
 
-/*****************************
- * 		Lívia Sousa Brito    *
- *****************************/
-
 public class Netflix extends StreamingSerie {
 
 	@Override

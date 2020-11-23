@@ -7,10 +7,6 @@ import david.augusto.luan.entidades.Serie;
 import david.augusto.luan.exceptions.AutorInexistenteException;
 import david.augusto.luan.exceptions.SerieInexistenteException;
 
-/*****************************
- * 		Lívia Sousa Brito    *
- *****************************/
-
 public interface ServicoStreaming {
 
 	public void adicionarSerie(String nome, String autor, Data lancamento, double custoOnDeman);

@@ -1,9 +1,5 @@
 package david.augusto.luan.entidades;
 
-/*****************************
- * 		Lívia Sousa Brito    *
- *****************************/
-
 public class Serie {
 
 	private String nome;

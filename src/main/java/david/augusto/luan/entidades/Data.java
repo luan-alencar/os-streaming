@@ -1,8 +1,5 @@
 package david.augusto.luan.entidades;
 
-/*****************************
- * 		Lívia Sousa Brito    *
- *****************************/
 
 public class Data {
 

@@ -6,10 +6,6 @@ import java.util.List;
 import david.augusto.luan.exceptions.AutorInexistenteException;
 import david.augusto.luan.interfaces.ServicoStreaming;
 
-/*****************************
- * 		Lívia Sousa Brito    *
- *****************************/
-
 public abstract class StreamingSerie implements ServicoStreaming {
 
 	protected List<Serie> series;
